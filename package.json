@@ -1,0 +1,9 @@
+{
+    "name": "kofeiinilaskuri",
+    "version": "1.0.0",
+    "description": "Kofeiinilaskuri",
+    "scripts": {
+        "install": "mkdir bin && cd bin && curl -L https://github.com/luvit/lit/raw/master/get-lit.sh | sh",
+        "start": "./bin/luvit server.lua"
+    }
+}
